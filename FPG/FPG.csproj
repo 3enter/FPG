@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\FPGrowth.cs" />
+    <Compile Include="Class\FPTree.cs" />
+    <Compile Include="Class\FPTreeNode.cs" />
+    <Compile Include="Class\ItemSet.cs" />
+    <Compile Include="Class\ItemSets.cs" />
+    <Compile Include="Class\Transaction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,5 +58,6 @@
   <ItemGroup>
     <Content Include="Withphy.py" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
